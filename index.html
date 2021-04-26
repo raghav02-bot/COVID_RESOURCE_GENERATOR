@@ -24,6 +24,22 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script>
+    const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/covid-ovid-data/sixmonth/USA",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "0e43567e4dmshf44b4cfbd603257p1ea79bjsn00cb7d9f77d3",
+		"x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+        </script>
 
 
   <!-- Template Main CSS File -->
@@ -1068,7 +1084,7 @@ function myFunction() {
  
   <button type="submit" class="btn btn-info" onclick="myFunction()">Submit</button>
 </form>
-<p id="demo" "</p>
+              
               </div>
                          
                     
@@ -1077,7 +1093,9 @@ function myFunction() {
                   
 
        
-    </section><!-- End Contact Section -->
+    </section>
+
+ <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -1159,7 +1177,7 @@ function myFunction() {
     </div>
   </footer><!-- End Footer -->
   <div id="myDiv">
-        <a href="https://chat.whatsapp.com/LbXzYVg7biRLHwnfXURPgE" class="whatsapp_float" target="_blank" > <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        <a href="https://chat.whatsapp.com/Kyi6rklYydX36H7gOTTLSn" class="whatsapp_float" target="_blank" > <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
         </div>
   <!-- Vendor JS Files -->
