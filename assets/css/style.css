@@ -1802,7 +1802,7 @@ section {
 	width:60px;
 	height:60px;
 	bottom:30px;
-	right:40px;
+	right:30px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -1815,8 +1815,8 @@ section {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:95px;
-	right:40px;
+	bottom:30px;
+	right:100px;
 	background-color:red;
 	color:#FFF;
 	border-radius:50px;
