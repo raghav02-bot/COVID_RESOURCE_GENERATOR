@@ -1831,10 +1831,10 @@ section {
 }
 /* for mobile */
 @media screen and (max-width: 767px){
-     .whatsapp-icon {
+     .eyedropper-icon  {
 	 margin-top:10px;
      }
-    .whatsapp_float {
+    .eyedropper-icon  {
         width: 40px;
         height: 40px;
         bottom: 20px;
