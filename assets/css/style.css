@@ -1816,7 +1816,7 @@ section {
 	width:60px;
 	height:60px;
 	bottom:30px;
-	right:100px;
+	left:30px;
 	background-color:red;
 	color:#FFF;
 	border-radius:50px;
@@ -1838,7 +1838,7 @@ section {
         width: 40px;
         height: 40px;
         bottom: 20px;
-        right: 10px;
+        left: 10px;
         font-size: 22px;
     }
 }
